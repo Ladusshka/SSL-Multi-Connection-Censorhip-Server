@@ -29,7 +29,21 @@ Protocol
         For more protocol details, see the previous project’s README.
 
 
+Usage of Sample Tester
+         SSLTCPclientV2.out <IP/hostname serveru> <port serveru> <certifikát certifikační autority> <volitelný seed testu>
 
+
+
+ Parallel Testing Example
+
+If you want to run multiple client instances in parallel (for stress or concurrency testing), you can use a loop in your shell. For example:
+
+"for i in {1..4}; do
+    SSLTCPclient localhost 1024 ./CA.crt >/dev/null &
+done"
+
+
+Also there is need to create own certificate to run the main script
 
 
 
