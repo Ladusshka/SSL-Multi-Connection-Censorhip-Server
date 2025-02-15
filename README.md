@@ -3,6 +3,7 @@
 
 Text Censorship Server (Multi-Client + SSL)
 
+There is need to create own SSL certificate to run the server.cpp script
 
 Features
 
@@ -43,7 +44,6 @@ If you want to run multiple client instances in parallel (for stress or concurre
 done"
 
 
-Also there is need to create own certificate to run the main script
 
 
 
